@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+.fallback {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button {
+  background-color: transparent;
+  height: 48px;
+  color: #fff;
+  font-size: 1rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
